@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Event Hive</title>
+        <link rel="stylesheet" href="pagestyle.css">
+		
+		 <style>
+        select {
+            width: 200px;
+            padding: 5px;
+        }
+		#optionSelect{
+		     background-color: #dadfeb;
+			 font-size: 20px;
+			 }
+	    
+    </style>
+    </head>
+<body>
+<!--CONTACT US-->
+    <section class="contact" id="contact">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="signup1.php">SIGN UP</a></li>
+                    <li><a href="login1.php">LOGIN</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+					
+					<div class="email">
+					    <p> CONTACT NUMBER
+						( <a href="tel:+9593529028" class="phone-number">9593529028</a> /
+						<a href="tel:+6202823141" class="phone-number">6202823141</a>)
+						</p>
+                       
+					<ul>
+						<li>Gmail ( <a href="https://mail.google.com/mail/u/0/#advanced-search/to=pranabsinghbabu%40gmail.com&query=in%3Asent&isrefinement=true&todisplay=pranabsinghbabu%40gmail.com?compose=new">Pranab singh babu</a></p></li>
+					    <li><a href="https://mail.google.com/mail/u/0/#advanced-search/to=SP3098824%40gmail.com&query=in%3Asent&isrefinement=true&todisplay=SP3098824%40GMAIL.COM?compose=new">Suraj kumar pal</a> )</li>
+					    
+					</ul>
+					</div>
+					</div>
+
+                </ul>
+            </div>
+			
+        </nav>
+		
+		
+    <div class="container">
+	
+        <div class="contactForm">
+		  
+            <form>
+                <h2>Contact Us</h2>
+                <div class="inputBox">
+                    <input type="text" required="required" placeholder="Full Name">
+                </div>
+				<div class="inputBox">
+                    <input type="int" required="required" placeholder="Enter your Contact Number">
+                </div>
+                <div class="inputBox">
+                    <input type="text" required="required" placeholder="Email">
+                </div>
+				<div class="inputBox">
+                    <textarea name="" id="" required="required" placeholder="your Full Address..."></textarea>
+                </div>
+                <div class="inputBox">
+                    <textarea name="" id="" required="required" placeholder="Type your Message..."></textarea>
+                </div>
+				<div class="inputBox">
+				    <select id="optionSelect" onchange="updateInput()">
+							<option value="" disabled selected>Select an option</option>
+							<option value="Corporate Events">Product Launches</option>
+							<option value="">Conferences</option>
+							<option value="">Sales Events</option>
+							<option value="">Trade Shows</option>
+							<option value="">Customer Appreciation Parties</option>
+							<option value="">Team Building Workshops</option>
+							<!-- Corporate Events -->
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+					</select>
+					<input type="text" id="selectedOption" placeholder="Selected Option" readonly>
+    
+					<script>
+								function updateInput() 
+									{
+												const selectElement = document.getElementById('optionSelect');
+												const inputElement = document.getElementById('selectedOption');
+												
+												// Get the selected option's text
+												const selectedOptionText = selectElement.options[selectElement.selectedIndex].text;
+												
+												// Update the input field with the selected option text
+												inputElement.value = selectedOptionText;
+									}
+					</script>
+                </div>
+				
+				<div class="inputBox">
+                    <input type="int" required="required" placeholder="Enter the Event plan Budget (Nearly Around)">
+                </div>
+				<div class="inputBox">
+				<p>Event Date & Time :  
+				     <input type="datetime-local" style="width: 200px "></p>
+				</div>
+				
+				
+                <div class="inputBox">
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </div>
+		
+    </div>
+    </section>
+    <!--FOOTER-->
+    <footer>
+        <div class="footer-container">
+          <p>&copy; 2023 TheEventHive. All rights reserved.</p>
+        </div>
+        </footer>
+</body>
+</html>

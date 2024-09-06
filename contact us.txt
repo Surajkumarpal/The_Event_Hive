@@ -1,0 +1,10 @@
+create table contactus(
+    -> Id int auto_Iincrement primary key,
+    -> Name varchar(255) not null,
+    -> Contactnumber varchar(20) not null,
+    -> Email varchar(100),
+    -> Address text,
+    -> selectoption varchar(100),
+    -> Planamount int not null,
+    -> Eventdate date,
+    -> massage varchar(1000));

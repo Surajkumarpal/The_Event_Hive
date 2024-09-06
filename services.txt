@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Event Hive</title>
+        <link rel="stylesheet" href="pagestyle.css">
+    </head>
+<body>
+<!--OUR SERVICES-->
+    <section class="services" id="services">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+            <h1>Our Services</h1>
+            <p>Planning an event but no idea where to start? Get a look at our services!</p>
+            <table class="service-row">
+                <tbody>
+                <tr>
+                    <td style="padding-left: 10em">
+                        <h1>Corporate Events</h1>
+                        <ul>
+                        <li>Product Launches</li>
+                        <li>Conferences</li>
+                        <li>Sales Events</li>
+                        <li>Trade Shows</li>
+                        <li>Customer Appreciation Parties</li>
+                        <li>Team Building Workshops</li>
+                        <li>More!</li>
+                        </ul>
+                    </td>
+
+                    <td>
+                        <h1>Social Events</h1>
+                        <ul>
+                        <li>Birthday Parties</li>
+                        <li>Seasonal Celebrations</li>
+                        <li>Anniversary Parties</li>
+                        <li>Going Away Parties</li>
+                        <li>Girls / Guys Night Out</li>
+                        <li>Retirement Parties</li>
+                        <li>More!</li>
+                        </ul>
+                    </td>
+
+                    <td>
+                        <h1>Weddings</h1>
+                        <ul>
+                        <li>Ceremonies</li>
+                        <li>Receptions</li>
+                        <li>Engagement Parties</li>
+                        <li>Bridal Showers</li>
+                        <li>Rehearsal Dinners</li>
+                        <li>Bachelor/ Bachelorette Parties</li>
+                        <li>More!</li>
+                        </ul>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+    </section>
+    <!--FOOTER-->
+    <footer>
+        <div class="footer-container">
+          <p>&copy; 2023 TheEventHive. All rights reserved.</p>
+        </div>
+        </footer>
+</body>
+</html>
